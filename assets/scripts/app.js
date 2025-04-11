@@ -2,7 +2,7 @@ const Portfolio = function() {
 	function makeWords() {
 		var words = [
 			{
-				text: "rapping",
+				text: "mentoring",
 				weight: 12.3
 			}, {
 				text: "css3",
@@ -17,16 +17,16 @@ const Portfolio = function() {
 				text: "programming",
 				weight: 7
 			}, {
-				text: "python",
+				text: "ReactJS",
 				weight: 10
 			}, {
 				text: "java",
 				weight: 9
 			}, {
-				text: "qazi",
+				text: "Sahil",
 				weight: 15
 			}, {
-				text: "newText",
+				text: "GraphQL",
 				weight: 7
 			}
 		];
@@ -34,7 +34,7 @@ const Portfolio = function() {
 	}
 
 	function makeWordCloud(words) {
-		$('.teaching-domains').jQCloud(words, {delay: 120});
+		$('.-domains').jQCloud(words, {delay: 120});
 	}
 
 	function displayWordCloud() {
